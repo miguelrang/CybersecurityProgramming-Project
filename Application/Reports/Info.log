@@ -1,0 +1,6 @@
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.hunter.io:443
+DEBUG:urllib3.connectionpool:https://api.hunter.io:443 "GET /v2/domain-search?company=kasjkfkjds&api_key=64db51abbe577e02e443edf4aad872ed5c64fff2&limit=1&type=personal HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.hunter.io:443
+DEBUG:urllib3.connectionpool:https://api.hunter.io:443 "GET /v2/domain-search?company=kasjkfkjds&api_key=64db51abbe577e02e443edf4aad872ed5c64fff2&limit=1&type=personal HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.hunter.io:443
+DEBUG:urllib3.connectionpool:https://api.hunter.io:443 "GET /v2/domain-search?company=kasjkfkjds&api_key=64db51abbe577e02e443edf4aad872ed5c64fff2&limit=1&type=personal HTTP/1.1" 200 None
