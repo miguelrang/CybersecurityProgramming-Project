@@ -92,8 +92,6 @@ if __name__ == '__main__':
 					print(":[*] Message hacked:", t.hackMessage())
 					print()
 
-				elif opc == 4:
-					pass
 				else:
 					logging.error("You chose an option does not exist", data.opc)
 					print("[!] You added an invalid option")
