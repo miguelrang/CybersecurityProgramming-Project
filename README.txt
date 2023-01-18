@@ -1,15 +1,29 @@
-::::::::::::::::::::::::::::::::::::::::::::::::::::P R O Y E C T O::::::::::::::::::::::::::::::::::::::::::::::::::::
-=======================================================================================================================
+::::::::::::::::::::::::::::::::::::::::::::::::::::P R O Y E C T ::::::::::::::::::::::::::::::::::::::::::::::::::::
+Instructions.
+Write a script that performs at least 5 Cybersecurity tasks and meets the following topics:
+ 1. Exception Handling
+ 2. log usage
+ 3. Using de argparse
+  3.1 When executing the script, all arguments should be included and no user interaction should be required.
+  3.2 Documentation must be included for the -h argument to work.
+ 4. Socket usage.
+ 5. Consult an API related to computer security.
+ 6. Use at least one non-native Python module (requires to be installed with PIP).
+ 7. That reports be generated, in at least one of the Cybersecurity tasks, in html, xls(x) or txt format.
+ 8. The script must be made up of at least 3 modules (2 .py files and a PS script), where one must have the main function.
+Indicate the HASH (SHA512) of each of the files delivered.
+ 
+======================================================================================================================
 The aplication code has the next options for you:
 1. Encode a Message
 2. Unencode a Message
 3. Hack an encoded Message
 4. Investigate an organization (with your hunter api key)
 5. Send Messages for Gmail.com or Outlook.com
-_______________________________________________________________________________________________________________________
+______________________________________________________________________________________________________________________
 Now we will explain which parameters you have to add for each option:
 ---If you need help for the parameters you can execute 'Application.py -h'---
------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------
 [*] If you want to ENCODE a message, these are the possible options:
 	-opc 1
 		-lang *Choose a language with 1 or 2*
@@ -20,7 +34,7 @@ Now we will explain which parameters you have to add for each option:
 [+] Example(s):
 :::: Application.py -opc 1 -lang 1 -msg "This is my message in english" -t_cifr 1 -rot 13
 :::: Application.py -opc 1 -lang 2 -msg "Este es mi mensaje en español" -t_cifr 2 -key "keyword"
------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------
 [*] If you want to UNENCODE a message, these are the possible options:
 	-opc 2
 		-lang *Choose a language with 1 or 2*
@@ -31,7 +45,7 @@ Now we will explain which parameters you have to add for each option:
 [+] Example(s):
 :::: Application.py -opc 2 -lang 1 -msg "guvf vf zl zrffntr va ratyvfu" -t_cifr 1 -rot 13
 :::: Application.py -opc 2 -lang 2 -msg "e s lsmaetijse ep m aeeeñsnno" -t_cifr 2 -key "keyword"
------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------
 [*] If you want to HACK an encoded message, these are the possible options:
 	-opc 3
 		-lang *Choose a language with 1 or 2*
@@ -41,7 +55,7 @@ Now we will explain which parameters you have to add for each option:
 [+] Example(s):
 :::: Application.py -opc 3 -lang 1 -msg "guvf vf zl zrffntr va ratyvfu" -t_cifr 1
 :::: Application.py -opc 3 -lang 2 -msg "e s lsmaetijse ep m aeeeñsnno" -t_cifr 2
------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------
 [*] If you want to GET INFORMATION of an ORGANIZATION with your HUNTER api key,
 ::: these are the possible options:
 	-opc 4
@@ -52,7 +66,7 @@ Now we will explain which parameters you have to add for each option:
 :::: Application.py -opc 4 -apikey '31mn93abbx811o05q119lDp1mms931ml5c31jjj7' -domain "www.telmex.com"
 :::: Application.py -opc 4 -apikey '31mn93abbx811o05q119lDp1mms931ml5c31jjj7' -domain "telmex.com"
 :::: Application.py -opc 4 -apikey '31mn93abbx811o05q119lDp1mms931ml5c31jjj7' -domain "telmex"
------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------
 [*] If you want to SEND an EMAIL (you can also ADD a PICTURE in your email):
 	-opc 5
 		-t_email *Choose the type of email with 1 or 2*
@@ -76,7 +90,7 @@ Now we will explain which parameters you have to add for each option:
 
 :::: Application.py -opc 5 -t_email 2 -email "example@outlook.com" -passw "yourpassword" -to "example2@account.com" 
 -subj "Subject:" -msg "Your message"
------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------
 [*] If you want to verify if a PORT is OPEN:
 	-opc 6
 		-ip *"Write the IP"*
@@ -84,10 +98,10 @@ Now we will explain which parameters you have to add for each option:
 
 [+] Example(s):
 :::: Application.py -opc 6 -ip "192.168.1.12" -port 8080
------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------
 [*] If you want to verify the DNS:
 	-opc 7
 
 [+] Example(s):
 :::: Application.py -opc 7
------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------
